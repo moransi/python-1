@@ -8,5 +8,6 @@ def get_name():
         last_name = full_name.split(' ')[1]
         print('Your Fistname is {0}'.format(first_name))
         print('Your Lastname is {0}'.format(last_name))
+        print()
 
 
