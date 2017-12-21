@@ -1,0 +1,10 @@
+Sunday:Sonntag
+Monday:Montag
+Tuesday:Dienstag
+Wednesday:Mitwoch
+Thursday:Donnerstag
+Friday:Freitag
+Saturday:Samstag
+Man:Mann
+Woman:Frau
+Child:Kind
