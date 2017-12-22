@@ -1,7 +1,7 @@
 import requests
 
 ## /c/Users/mcse/AppData/Local/Programs/Python/Python36-32/Scripts/pip
-
+## http://maps.googleapis.com/maps/api/geocode/json?address=haifa
 
 resp = requests.get('https://api.darksky.net/forecast/0d584daf877a4ff2998afe4329840ef9/32.7996897,34.9817565')
 if resp.status_code != 200:
