@@ -19,9 +19,9 @@ location = results['geometry']['location']
 lat = location['lat']
 lng = location['lng']
 
-darksky_url = f"https://api.darksky.net/forecast/0d584daf877a4ff2998afe4329840ef9/{lat},{lng}"
+#darksky_url = f"https://api.darksky.net/forecast/0d584daf877a4ff2998afe4329840ef9/{lat},{lng}"
 
-# resp = requests.get('https://api.darksky.net/forecast/0d584daf877a4ff2998afe4329840ef9/32.7996897,34.9817565')
+resp = requests.get('https://api.darksky.net/forecast/0d584daf877a4ff2998afe4329840ef9/32.7996897,34.9817565')
 # if resp.status_code != 200:
 #     # This means something went wrong.
 #     raise requests.RequestException('GET ERROR {}'.format(resp.status_code))
